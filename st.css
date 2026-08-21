@@ -1,3 +1,31 @@
-*{
-    
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
 }
